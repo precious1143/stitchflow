@@ -1,17 +1,20 @@
 import { SafeAreaView,SafeAreaProvider } from "react-native-safe-area-context";
 import { View,Text,Image,StyleSheet,Dimensions } from "react-native";
 import { Link } from "expo-router";
+import { appStyles} from "../utilities/mainstyle"
+
+ 
 
 const screenWidth = Dimensions.get("window")
 
 export default function Index (){
   return(
     <SafeAreaProvider>
-      <SafeAreaView>
+      <SafeAreaView style ={appStyles.areaView}>
         {/* header */}
-      <View>
-        <Text>Stitc Flow</Text>
-        <Text>your fashion partner</Text>
+      <View style={appStyles.HeaderView}>
+        <Text style={appStyles.Appname}>Stitch Flow</Text>
+        <Text style={appStyles.introText}>your fashion partner</Text>
      </View>
           {/* body */}
           <View>
@@ -24,9 +27,9 @@ export default function Index (){
             <Text>When you choose stitch Flow fashion, you're choosing ease,comfort and relaibility</Text>
           </View>
           {/* bottom */}
-          <View>
+          <View style={{paddingHorizontal:30}}>
             <Link href="/(tabs)/homepage">
-              <Text>GET STARTED</Text>
+              <View style={appStyles.getstartedView}><Text style={appStyles.linkText}>GET STARTED</Text></View>
             </Link>
           </View>
       </SafeAreaView>
@@ -37,7 +40,7 @@ export default function Index (){
 const myStyles = StyleSheet.create({
   logo:{
     width:screenWidth,
-    height:420
+    height:320
   }
 })
 
