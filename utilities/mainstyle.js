@@ -1,5 +1,6 @@
 import { Dimensions, FlatList, StyleSheet } from "react-native";
 const screenWidth = Dimensions.get("window")
+import { appColors} from "../utilities/apptheme"
 
 
 export const appStyles = StyleSheet.create({
@@ -12,29 +13,34 @@ export const appStyles = StyleSheet.create({
     Appname:{
         fontSize:30,
         textAlign:"center",
-        color:"blue"
+        color:appColors.navy,
+        fontWeight:"800"
     },
     introText:{
         textAlign:"center",
-        fontSize:15
+        fontSize:13,
+        color:appColors.darkblue,
     },
     areaView:{
+        backgroundColor:"white",
         display:"flex",
-        gap:25,
-        backgroundColor:"white"   
+        justifyContent:"space-between",
+        flex:1,
+        marginBottom:20
     },
     getstartedView:{
         display:"flex",
         width:"100%",
         height:50,
-        backgroundColor:"blue",
+        backgroundColor:appColors.navy,
         alignItems:"center",
         justifyContent:"center",
         borderRadius:100
     },
     linkText:{
         color:"white",
-        fontSize:15
+        fontSize:15,
+        fontWeight:"600"
     },
     Flatimg:{
         width:screenWidth,
@@ -47,21 +53,120 @@ export const appStyles = StyleSheet.create({
     },
     headerText:{
         fontSize:30,
-        color:"red",
+        color:appColors.navy,
         letterSpacing:4.7,
         textAlign:"center",
-        fontWeight:"700"
+        fontWeight:"700",
+        fontFamily:"ReilycElegantDemo-Regular"
     },
     designerName:{
         fontSize:16,
         fontWeight:"bold",
-        color:"red"
+        color:appColors.darkblue,
+        fontFamily:"paterna"
     },
     iconDisplay:{
         display:"flex",
         flexDirection:"row",
+        gap:30
         
+    },
+    iconView:{
+        display:"flex",
+        flexDirection:"row",
+        justifyContent:"space-between",
+        alignItems:"center"
+    },
+    imgView:{
+        height:500,
+        width:screenWidth,
+    },
+    introText2:{
+        textAlign:"center",
+        fontSize:20,
+        color:appColors.darkblue,
+        paddingBottom:10,
+    },
+    // measurement styles
+    scrollcontent:{
+
+    },
+    MeasureHeader:{
+        marginBottom:30,
+        
+    },
+    title:{
+        fontSize:30,
+        textAlign:"center",
+        fontWeight:"800",
+        color:appColors.navy
+    },
+    subtitle:{
+        fontSize:18,
+        color:appColors.darkblue,
+        textAlign:"center",
+    },
+    gendersection:{
+        marginBottom:24,
+    },
+    gendertitle:{
+        fontSize:15,
+        fontWeight:"bold",
+        color:appColors.darkblue,
+        marginBottom:12,
+    },
+    genderView:{
+        display:"flex",
+        flexDirection:"row",
+        gap:13,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    genderbtn:{
+        width:150,
+        borderWidth:2,
+        backgroundColor:appColors.grey,
+        borderColor:appColors.darkblue,
+        paddingVertical:12,
+        borderRadius:8,
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    genderbtnactive:{
+        backgroundColor:appColors.navy,
+        borderColor:appColors.red,
+    },
+    gendertext:{
+        fontSize:15,
+        fontWeight:"600",
+        color:appColors.darkblue,
+    },
+    genderTextActive:{
+        color:"white"
+    },
+    unitbtn:{
+        width:150,
+        borderWidth:2,
+        backgroundColor:appColors.grey,
+        borderColor:appColors.navy,
+        paddingVertical:12,
+        borderRadius:8,
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    unitbtnactive:{
+        backgroundColor:appColors.navy,
+        borderColor:appColors.red,
+    },
+    unittextactive:{
+        color:"white"
+    },
+    unittext:{
+        ontSize:15,
+        fontWeight:"600",
+        color:appColors.darkblue,
     }
+    
 
 
 

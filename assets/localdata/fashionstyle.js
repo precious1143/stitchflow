@@ -1,31 +1,31 @@
 export const evenData = [
     {id:"preciousrobin364",
-        designer:"SEYI VODI" ,
+        designer:"CHIBUZO ODOGWU" ,
         Imgurl:require("../../assets/images/y1.jpg")
     },
     {
         id:"danieldonald256",
-        designer:"SEYI VODI" ,
+        designer:"OGAGA DAVID" ,
         Imgurl:require("../../assets/images/y2.jpg")
     },
     {
         id:"chibuzokkklkk156",
-        designer:"SEYI VODI",
+        designer:"ISREAL DAVE",
         Imgurl:require("../../assets/images/y3.jpg")
     },
     {
         id:"eyuidiodojj159",
-        designer:"SEYI VODI",
+        designer:"DIAMOND SPOT",
         Imgurl:require("../../assets/images/y4.jpg")
     },
     {
         id:"pddhjkekwkw899",
-        designer:"SEYI VODI",
+        designer:"BIG G LUXURY",
         Imgurl:require("../../assets/images/y5.jpg")
     },
     {
         id:"dhsqedhhhjqh267",
-        designer:"SEYI VODI",
+        designer:"DEVON COLLECTION",
         Imgurl:require("../../assets/images/y6.jpg")
     },
     {
@@ -40,47 +40,47 @@ export const evenData = [
     },
     {
         id:"yrriwehfhgsgg746",
-        designer:"SEYI VODI",
+        designer:"ANAS ISIMAL",
         Imgurl:require("../../assets/images/y9.jpg")
     },
     {
         id:"hsdjkasjhd740",
-        designer:"SEYI VODI",
+        designer:"JUSTICE COLLECTION",
         Imgurl:require("../../assets/images/y10.jpg")
     },
     {
         id:"rfhsdjyiwywu178",
-        designer:"SEYI VODI",
+        designer:"KODAK LUXURY",
         Imgurl:require("../../assets/images/y11.jpg")
     },
     {
         id:"jdhsdfhdjxjhu873",
-        designer:"SEYI VODI",
+        designer:"PRECIOUS ROBINSON",
         Imgurl:require("../../assets/images/y12.jpg")
     },
     {
         id:"ejhsdgfuwysjhd159",
-        designer:"SEYI VODI",
+        designer:"CHIDEX COLLECTION",
         Imgurl:require("../../assets/images/y13.jpg")
     },
     {
         id:"aesgyjdzhtxhjue733",
-        designer:"SEYI VODI",
+        designer:"UWANAM PAAA LUXURY",
         Imgurl:require("../../assets/images/y14.jpg")
     },
     {
         id:"jsjdiqojajhzs836",
-        designer:"SEYI VODI",
+        designer:" MESKEY MANE COLLECTION",
         Imgurl:require("../../assets/images/y15.jpg")
     },
     {
         id:"sehdhueiwugvzhxg876",
-        designer:"SEYI VODI",
+        designer:"HONOR LUXURY",
         Imgurl:require("../../assets/images/y16.jpg")
     },
     {
         id:"ekwfshkudhghgxuyf842",
-        designer:"SEYI VODI",
+        designer:"DES BOY COLLECTION",
         Imgurl:require("../../assets/images/y17.jpg")
     },
     // {
@@ -90,12 +90,12 @@ export const evenData = [
     // },
     {
         id:"jhgekjdrxikffjd930",
-        designer:"SEYI VODI",
+        designer:"EMERE ENYA LUXURY",
         Imgurl:require("../../assets/images/y19.jpg")
     },
     {
         id:"fjkdhsirwjinndkj578",
-        designer:"SEYI VODI",
+        designer:"PAY WALKER COLLECTION",
         Imgurl:require("../../assets/images/y20.jpg")
     },
     {
@@ -105,12 +105,12 @@ export const evenData = [
     },
     {
         id:"preciouschibuzo156",
-        designer:"SEYI VODI",
+        designer:"EMMY REX LUXURY",
         Imgurl:require("../../assets/images/y22.jpg")
     },
     {
         id:"prhwdeyhsuso151",
-        designer:"SEYI VODI",
+        designer:"PERRY COLLECTION",
         Imgurl:require("../../assets/images/y23.jpg")
     }
 ]
